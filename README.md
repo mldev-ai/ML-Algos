@@ -1,6 +1,6 @@
 # ML-Text-Classification
 Machine Learning Algorithm Toolbox
-- Different shallow and deep learning algorithms
+- Different shallow and deep learning algorithms for text classification
 
 ## Proposed Directory Structure
 
