@@ -7,8 +7,8 @@ Machine Learning Algorithm Toolbox
 ```sh
 src
 |--- data
-    |--- train.csv/txt
-    |--- test.csv/txt
+|    |--- train.csv/txt
+|    |--- test.csv/txt
 |--- DataLoader.py
 |--- Models.py
 |--- Trainer.py
