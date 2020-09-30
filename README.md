@@ -5,10 +5,9 @@ Machine Learning Algorithm Toolbox
 ## Proposed Directory Structure
 
 ```sh
+data
+|--- classif_data.csv/tsv/txt
 src
-|--- data
-|    |--- train.csv/tsv/txt
-|    |--- test.csv/tsv/txt
 |--- DataLoader.py
 |--- Models.py
 |--- Trainer.py
