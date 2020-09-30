@@ -1,7 +1,8 @@
-from sklearn.metrics import accuracy_score, f1_score
-
 class PredictClf:
-    def eval(self, trained_model):
-        pred_y = trained_model.predict(self.test_x)
-        loss = 1 - accuracy_score(pred_y, self.test_y)
-        return loss, pred_y
+    def __init__(self, test_x, trained_model):
+        super().__init__()
+        self.trained_model = trained_model
+        self.test_x = test_x
+
+    def predict_clf(self):
+        return self.trained_model.predict(self.test_x)

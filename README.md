@@ -19,7 +19,7 @@ main.py
 
 ## Expalination
 
-Central to any ML systen are three key things: 
+Central to any ML system are three key things: 
 1. data, on which model will be trained; 
 2. features, the representation of data that will be the input to the model; and 
 3. algorithm (or model itself), which is going to be trained
