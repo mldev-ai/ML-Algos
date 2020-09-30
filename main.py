@@ -11,7 +11,7 @@ dt = Dataset(features=df["text"], labels=df["label"], test_size=0.33)
 train_x, test_x, train_y, test_y = dt.split_data()
 print("Data Split Done")
 
-tfidf = TfidfExtractor(train_x)
+tfidf = Extractor(train_x)
 tfidf.fit_extractor()
 train_vecs = tfidf.vectorize_data(train_x)
 test_vecs = tfidf.vectorize_data(test_x)
