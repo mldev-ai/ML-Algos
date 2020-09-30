@@ -1,4 +1,7 @@
 class TrainClf:
+    """
+    Training a model on train set
+    """
     def __init__(self, train_x, train_y, model):
         super().__init__()
         self.train_x = train_x

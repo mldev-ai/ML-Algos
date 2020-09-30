@@ -2,6 +2,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 class Extractor:
 
+    """
+    Class to define feature extractor, currently only TFIDF
+    """
+
     def __init__(self, train_docs, ngram_range=(1, 1)):
         super().__init__()
         self.ngram_range = ngram_range

@@ -2,6 +2,10 @@ from sklearn.model_selection import train_test_split
 
 class Dataset:
 
+    """
+    Class to split dataset into train and test sets
+    """
+
     def __init__(self, features, labels, test_size=0.33, random_state=42):
         super().__init__()
         self.test_size = test_size
