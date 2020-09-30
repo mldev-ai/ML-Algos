@@ -1,6 +1,6 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-class TfidfExtractor:
+class Extractor:
 
     def __init__(self, train_docs, ngram_range=(1, 1)):
         super().__init__()
