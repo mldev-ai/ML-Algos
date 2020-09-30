@@ -26,7 +26,7 @@ Central to any ML system are three key things:
 
 A simple pipeline of any ML project can be defined as:
 1. Prepare your data - split them into train and test sets. We'll do this using `DataLoader.py`
-2. Represent your data - extract features or embed your data, can also be considered the pre-processing step. We'll do this usinf `FeatureExtractor.py`
+2. Represent your data - extract features or embed your data, can also be considered the pre-processing step. We'll do this usinf `Extractor.py`
 3. Train the model. Will be done in `Trainer.py`
 4. Predict using the model. Will be done using `Inference.py`
 
